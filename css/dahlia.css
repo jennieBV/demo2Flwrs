@@ -1,0 +1,40 @@
+#arrow {
+    display: inline;
+}
+
+#flowersList>li:hover #arrow {
+    animation: none;
+    transform: translateX(0);
+    cursor: auto;
+}
+
+#texts>p {
+    font-size: 1.7rem;
+    letter-spacing: -0.1rem;
+    padding: 10px;
+    text-align: justify;
+    text-shadow: 2px 2px 1px #ffffff;
+    width: 82%;
+}
+
+#woman {
+    position: relative;
+}
+
+#shape {
+    shape-outside: ellipse(189px 187px at 50% 50%);
+    clip-path: ellipse(189px 187px at 50% 50%);
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-right: 2rem;
+}
+
+#dahpng {
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+#dahpng:hover {
+    transform: rotate(120deg);
+}

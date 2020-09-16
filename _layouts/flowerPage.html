@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <title>{{ page.title }}</title>
+    <base href="/">
+</head>
+
+<body>
+    <img src="{{ site.baseurl }}/photos/hiclipart.com.png" alt="" id="backimg">
+    <div id="credentials">
+        <p id="initials"><a href="{{ site.baseurl }}/index" class="button">home</a></p>
+        <p><a href = "mailto: abc@example.com" id="email">j3n.4207@gmail.com</a></p>
+    </div>
+    <div id="titles">
+        <!-- <p id="mainText">Flowering</p>
+        <p id="secondaryText">Plants</p> -->
+        <ul id="flowersList">
+            <li><a href="{{ site.baseurl }}/agapanthus" class="button">Agapanthus</a><img src="{{ site.baseurl }}/photos/untitled.png" alt="" id="arrow" class="arr1"></li>
+            <li><a href="{{ site.baseurl }}/dahlia" class="button">Dahlia</a><img src="{{ site.baseurl }}/photos/untitled.png" alt="" id="arrow"></li>
+            <li><a href="{{ site.baseurl }}/geranium" class="button">Geranium</a><img src="{{ site.baseurl }}/photos/untitled.png" alt="" id="arrow"></li>
+            <li><a href="{{ site.baseurl }}/lobelia" class="button">Lobelia</a><img src="{{ site.baseurl }}/photos/untitled.png" alt="" id="arrow"></li>
+            <li><a href="{{ site.baseurl }}/plume-celosia" class="button">Plume Celosia</a><img src="{{ site.baseurl }}/photos/untitled.png" alt="" id="arrow"></li>
+        </ul>
+        <!-- <p id="hoverP">Hover the flower circle.</p> -->
+        {{ content }}
+    </div>
+
+
+
+</body>
+
+</html>

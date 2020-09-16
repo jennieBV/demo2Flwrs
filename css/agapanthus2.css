@@ -1,0 +1,14 @@
+#p1 {
+    font-size: 1.7rem;
+    letter-spacing: -0.1rem;
+    padding: 10px;
+    text-align: justify;
+    text-shadow: 2px 2px 1px #ffffff;
+    width: 40%;
+}
+
+#agapGirl {
+    animation: fadeInRight 2s;
+    filter: contrast(85%);
+    height: 450px;
+}

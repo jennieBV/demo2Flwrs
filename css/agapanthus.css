@@ -1,0 +1,77 @@
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+#flowersList {
+    animation: none;
+    width: 100%;
+}
+
+#texts>p {
+    width: 82%;
+}
+
+#hoverP {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    animation: fadeInRight 2s;
+    filter: contrast(85%);
+}
+
+#texts>p,
+#hoverP {
+    font-size: 1.7rem;
+    letter-spacing: -0.1rem;
+    padding: 10px;
+    text-align: justify;
+    text-shadow: 2px 2px 1px #ffffff;
+}
+
+#agapGirl {
+    height: 128%;
+    animation: fadeInRight 2s;
+    filter: contrast(85%);
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateY(300px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+#shape {
+    shape-outside: ellipse(189px 187px at 50% 50%);
+    clip-path: ellipse(189px 187px at 50% 50%);
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-right: 2rem;
+}
+
+#agapng {
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+#agapng:hover {
+    transform: rotate(120deg);
+}
+
+#p1>span {
+    background-color: rgb(218, 218, 218);
+    position: relative;
+}
